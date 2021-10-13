@@ -1,0 +1,29 @@
+.tira {
+    width: 100%;
+    max-height: 220px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    max-height: 220px;
+}
+
+.caja {
+    position: absolute;
+    width: 45%;
+    top: 10%;
+    left: 20%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartel {
+    font-size: 14px;
+}
+
+button {
+    font-size: 18px;
+    font-style: italic;
+}

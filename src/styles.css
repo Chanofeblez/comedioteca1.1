@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background: blue;
+    /*  background: url("../src/assets/imgExtras/pattern.png"); */
+}
+
+* {
+    text-decoration: none;
+}
+
+.btn-outline-success {
+    border-color: #bd4c5f !important;
+    ;
+    color: #bd4c5f !important;
+    ;
+}
+
+.btn-outline-success:hover {
+    background-color: #272a36;
+    color: rgb(255, 255, 255) !important;
+}
+
+.block {
+    display: block;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

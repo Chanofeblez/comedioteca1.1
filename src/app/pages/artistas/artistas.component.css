@@ -1,0 +1,29 @@
+.tarjetas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    height: 240px;
+    flex-basis: 24.3%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 240px;
+}
+
+.info {
+    position: absolute;
+}
+
+.info h4 {
+    font-size: 18px;
+    color: #f0d557;
+    font-weight: 500;
+    background-color: black;
+    margin-left: 20px;
+}

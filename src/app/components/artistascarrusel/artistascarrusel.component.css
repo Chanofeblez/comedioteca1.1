@@ -1,0 +1,50 @@
+.carrusel {
+    width: 100%;
+    max-height: 500px;
+    height: 500px;
+    background-color: rgb(7, 7, 7);
+}
+
+.titulo {
+    color: #ff7b17;
+}
+
+.targeta {
+    overflow: hidden;
+}
+
+.espacio {
+    color: #404040;
+}
+
+h4 {
+    color: white;
+    font-size: 11px;
+    margin-top: 6px;
+    margin-bottom: 0%;
+}
+
+.nombre {
+    height: 50px;
+    margin-left: 10%;
+    background-color: #404040;
+}
+
+.redes {
+    height: 40px;
+    background-color: black;
+}
+
+h6 {
+    margin: 0%;
+    color: #fca461;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.boton {
+    margin-left: 0%;
+    margin-top: 18%;
+    color: #fca461;
+    margin-right: 9px;
+}

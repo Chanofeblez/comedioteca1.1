@@ -1,0 +1,30 @@
+<div class="row ">
+    <div class="col-md-12">
+        <h2 class="container mt-5 titulo">ARTISTAS</h2>
+    </div>
+    <div class="col-md-12 ">
+        <div class="swiper container mt-5">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide text-center row targeta" *ngFor="let comediante of comediantes">
+                    <div class="imagen col-md-12">
+                        <img [src]="comediante.image" alt="" class="">
+                    </div>
+
+                    <div class="nombre col-md-6">
+                        <h4 class="tituloImagen text-start text-uppercase">{{ comediante.name }}</h4>
+                        <h6 class=" text-start text-uppercase">{{ comediante.country }}</h6>
+                    </div>
+                    <div class="redes text-start col-md-4">
+                        <i class="fab fa-facebook-f boton"></i>
+                        <i class="fab fa-youtube boton"></i>
+                        <i class="fab fa-instagram boton"></i>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

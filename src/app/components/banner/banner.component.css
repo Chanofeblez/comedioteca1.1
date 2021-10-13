@@ -1,0 +1,55 @@
+.banner {
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+    background: black;
+}
+
+.ittem {
+    position: relative;
+}
+
+.caja {
+    position: absolute;
+    width: 13%;
+    top: 10%;
+    left: 20%;
+    text-align: left;
+}
+
+.caja p {
+    color: white;
+    font-family: Helvetica, sans-serif, Arial;
+    margin: 0%;
+}
+
+.estreno {
+    font-size: 26px;
+    border-bottom: 2px solid #dc7f3c;
+}
+
+.titulo2 {
+    font-size: 26px;
+    font-weight: 550;
+}
+
+.titulo3 {
+    font-size: 24px;
+}
+
+.titulo4 {
+    font-size: 15px;
+}
+
+.boton {
+    margin: 4% 2% 4% 0%;
+}
+
+.carrusel {
+    max-height: 620px;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    border-bottom: 3px solid white;
+}

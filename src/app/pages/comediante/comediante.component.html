@@ -1,0 +1,53 @@
+<div class="contenedor container mt-5">
+
+    <div id="contenido">
+
+        <div class="imagen">
+            <!--Imagen -->
+            <img [src]='comico.image' [alt]="comico.name" class="img-thumbnail">
+
+        </div>
+
+        <div class="descripcion">
+
+
+
+            <!--Nombre-->
+            <div class="m-3">
+                <h3 text-white> {{ comico.name }}</h3>
+            </div>
+
+            <!--Descripcion-->
+
+            <div class="m-2">
+                <div>
+                    {{ comico.description }}
+                </div>
+            </div>
+
+
+            <div class="m-2 d-grid gap-2">
+                <button class="btn btn-info" (click)="onRegresar()">
+                  Regresar
+                </button>
+            </div>
+
+        </div>
+
+
+        <div class="videos mt-3">
+
+            <div class="tarjeta m-2" *ngFor="let video of videos">
+                <img [src]="video.snippet.thumbnails.high.url" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title text-black">{{ video.snippet.title }}</h5>
+
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button" (click)="mostrarVideo( video )">Ver Video</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
