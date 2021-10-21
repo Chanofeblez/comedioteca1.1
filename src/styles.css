@@ -1,7 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+/* FUENTES */
+
+font-face {
+    font-family: "dosis";
+    src: url("/src/app/fonts/dosis/Dosis-Medium.ttf");
+    src: url("/src/app/fonts/dosis/Dosis-Medium.ttf#iefix") format("embedded-opentype");
+}
+
 body {
-    background: blue;
+    background: rgb(0, 0, 0);
     /*  background: url("../src/assets/imgExtras/pattern.png"); */
 }
 
@@ -9,20 +18,8 @@ body {
     text-decoration: none;
 }
 
-.btn-outline-success {
-    border-color: #bd4c5f !important;
-    ;
-    color: #bd4c5f !important;
-    ;
+html,
+body {
+    height: 100%;
+    margin: 0%;
 }
-
-.btn-outline-success:hover {
-    background-color: #272a36;
-    color: rgb(255, 255, 255) !important;
-}
-
-.block {
-    display: block;
-}
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

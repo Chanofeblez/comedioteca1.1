@@ -1,6 +1,7 @@
 /* Cabecera */
 
 .header {
+    width: 100%;
     background-color: #404040;
     height: 80px;
     border-bottom: 1px solid white;
@@ -21,7 +22,7 @@ ul {
 }
 
 .menu a {
-    font-family: Helvetica, sans-serif, Arial;
+    font-family: dosis;
     display: block;
     font-size: 14px;
     padding: 0%;
@@ -34,4 +35,48 @@ ul {
 .menu a:hover {
     background: rgb(76, 76, 77);
     color: white;
+}
+
+.buscar {
+    position: absolute;
+    padding: 5px;
+}
+
+.buscar input {
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #404040;
+    width: 50px;
+    height: 50px;
+    line-height: 33px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscar:hover input {
+    width: 180px;
+}
+
+.buscar input:focus {
+    width: 180px;
+}
+
+.buscar:hover .btn {
+    background-color: #ff7b17;
 }

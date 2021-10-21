@@ -4,6 +4,7 @@
     overflow: hidden;
     border-bottom: 1px solid white;
     background: black;
+    padding: 0%;
 }
 
 .ittem {
@@ -20,13 +21,13 @@
 
 .caja p {
     color: white;
-    font-family: Helvetica, sans-serif, Arial;
+    font-family: dosis;
     margin: 0%;
 }
 
 .estreno {
     font-size: 26px;
-    border-bottom: 2px solid #dc7f3c;
+    border-bottom: 2px solid #fb7712;
 }
 
 .titulo2 {
@@ -39,11 +40,14 @@
 }
 
 .titulo4 {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .boton {
     margin: 4% 2% 4% 0%;
+    font-family: dosis;
+    text-transform: uppercase;
+    background-color: #fb7712;
 }
 
 .carrusel {

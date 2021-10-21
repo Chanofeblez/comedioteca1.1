@@ -1,16 +1,57 @@
-.todo {
+h2 {
+    margin-left: 2%;
+    font-family: dosis;
+    color: #ff7b17;
+    font-size: 35px;
+}
+
+.cuadro {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.titulo {
-    flex-basis: 10%;
-    margin-bottom: 5px;
-    margin-left: 5%;
-    background: #000000;
+.cuadro .caja {
+    flex-grow: 1;
+    height: 150px;
+    flex-basis: 15%;
+    margin-top: 30px;
+    position: relative;
+    background: grey;
+    overflow: hidden;
 }
+
+.cuadro .caja img {
+    width: 100%;
+    height: 100%;
+}
+
+.cuadro .caja .icono {
+    position: absolute;
+    font-size: 40px;
+    color: #fca461;
+    top: 2%;
+    left: 2%;
+}
+
+.cuadro .caja .icono:hover {
+    position: absolute;
+    color: #fca461;
+    left: 1%;
+    top: 1%;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+/* Muteado */
 
 .search {
     flex-basis: 65%;
@@ -38,13 +79,6 @@
 .tarjeta img {
     width: 100%;
     height: 60%;
-}
-
-h2 {
-    color: #f0d557;
-    font-family: Helvetica, sans-serif, Arial;
-    font-size: 50px;
-    font-weight: 600;
 }
 
 h5 {

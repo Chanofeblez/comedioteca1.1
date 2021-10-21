@@ -25,9 +25,9 @@ export class ArtistascarruselComponent implements OnInit, AfterViewInit {
     console.log(this.comediantes);
     setTimeout(() => {
     const swiper1 = new Swiper('.swiper', {   
-      slidesPerView: 4.3,
+      slidesPerView: 4.6,
       freeMode: true,
-      spaceBetween: 3,     
+      spaceBetween: 2,     
       loop: true
     });
   }, 1000); 

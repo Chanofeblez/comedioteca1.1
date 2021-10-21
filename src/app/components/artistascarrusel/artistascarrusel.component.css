@@ -7,35 +7,36 @@
 
 .titulo {
     color: #ff7b17;
+    font-family: dosis;
 }
 
 .targeta {
+    width: 250px;
     overflow: hidden;
+    border: none;
+    background-color: black;
 }
 
-.espacio {
-    color: #404040;
+.description {
+    background-color: #404040;
+    height: 100%;
 }
 
-h4 {
+.description1 {
+    background-color: #000000;
+    height: 100%;
+}
+
+h5 {
+    font-family: dosis;
     color: white;
     font-size: 11px;
     margin-top: 6px;
     margin-bottom: 0%;
 }
 
-.nombre {
-    height: 50px;
-    margin-left: 10%;
-    background-color: #404040;
-}
-
-.redes {
-    height: 40px;
-    background-color: black;
-}
-
-h6 {
+p {
+    font-family: dosis;
     margin: 0%;
     color: #fca461;
     font-size: 12px;
@@ -43,8 +44,10 @@ h6 {
 }
 
 .boton {
-    margin-left: 0%;
-    margin-top: 18%;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 2%;
+    margin-top: 10%;
     color: #fca461;
-    margin-right: 9px;
+    margin-right: 5%;
 }

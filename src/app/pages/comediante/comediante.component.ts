@@ -21,7 +21,8 @@ export class ComedianteComponent implements OnInit {
   constructor(private location: Location,
     private activatedRoute: ActivatedRoute,
     private comedianteService: ComediantesService,
-    private youtubeService: YoutubeService) { }
+    private youtubeService: YoutubeService) { 
+    }
 
   ngOnInit(): void {
     const { id } = this.activatedRoute.snapshot.params;

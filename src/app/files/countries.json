@@ -48,7 +48,7 @@
     },
     {
         "name": "Starlyn Ramírez",
-        "country": "Republica Dominicana",
+        "country": "Dominicana",
         "description": "Starlyn Ramírez pertenece a una generación de comediantes jóvenes que están haciendo humor en bares, locales , establecimientos y que vienen creando la cultura del Stand Up y de una nueva forma de llevar un mensaje positivo crítico a través de la risa en la República Dominicana.",
         "image": "assets/img/Starlyn Ramírez.jpg",
         "imagecorta": "assets/imgCortadas/starlynRamirez.jpg",
@@ -56,7 +56,7 @@
     },
     {
         "name": "Elías Serulle",
-        "country": "Republica Dominicana",
+        "country": "Dominicana",
         "description": "Destacado por sus participaciones en el concurso Dominicana’s Got Talent, Serulle representa una generación de comediantes que pretende normalizar su estilo de hacer humor conocido como stand-up comedy.",
         "image": "assets/img/Elías Serulle.jpg",
         "imagecorta": "assets/imgCortadas/eliasSerulle.jpg",
@@ -173,5 +173,101 @@
         "image": "assets/img/Luiki Wiki.jpg",
         "imagecorta": "assets/imgCortadas/luikiWiki.jpg",
         "id": "4Qph6BIAsA4"
+    },
+    {
+        "name": "Felipe Avello",
+        "country": "Chile",
+        "description": "Felipe Alejandro Avello Suazo es un periodista y comediante chileno que ha incursionado en radio, televisión, prensa escrita, teatro, cine y música. Se hizo conocido principalmente por su participación en el programa de televisión SQP del canal Chilevisión, del cual fue panelista durante casi una década.",
+        "image": "assets/img/Felipe Avello.jpg",
+        "imagecorta": "assets/imgCortadas/Felipe Avello.jpg",
+        "id": "jJwq49sbUnY,WKpQ_-3Zi8U&t=66s"
+    },
+    {
+        "name": "Edo Caroe",
+        "country": "Chile",
+        "description": "Eduardo Alejandro Carrasco Rodríguez conocido como Edo Caroe, es un humorista y mago chileno. También se ha desempeñado como locutor de radio y podcaster.",
+        "image": "assets/img/Edo Caroe.jpg",
+        "imagecorta": "assets/imgCortadas/Edo Caroe.jpg",
+        "id": "uteXRheXz2I"
+    },
+    {
+        "name": "Juan Barraza",
+        "country": "Argentina",
+        "description": "Comediante de Stand Up, actor, músico, guionista, imitador y humorista en la radio. Es egresado de la Escuela de Teatro de Buenos Aires (E.T.B.A.), también realizó talleres y seminarios de actuación, improvisación, máscara balinesa y clown en la ciudad de Buenos Aires. Ha realizado trabajos en cine, publicidad y teatro y ha transitado distintos géneros como el drama, el realismo, la comedia, el grotesco criollo y el absurdo. Como comediante de Stand Up participó de numerosos ciclos en las principales salas y bares del circuito. En televisión participó de Comedy Central Presenta latinoamérica, y también fue parte de Stand Up Sin Fronteras, emitido por el canal Comedy Central. Participó en festivales internacionales de humor en Lima, Perú, y en Bogotá, Colombia.",
+        "image": "assets/img/Juan Barraza.jpg",
+        "imagecorta": "assets/imgCortadas/Juan Barraza.jpg",
+        "id": "UZDSm0WLC58"
+    },
+    {
+        "name": "Nicolas Biffi",
+        "country": "Argentina",
+        "description": "Pionero del stand up en Argentina. Trabajó un año en Humor de pie y seis años en Cincomediantes (ambos en la Sala Colette del Paseo La Plaza). Formó parte del dúo Los Hermanos Yonson con más de 90 presentaciones en la costa sólo en la temporada de verano 2009-2010, en donde pudo desenvolver sus habilidades con la música, la magia y los malabares. Brinda talleres para quienes desean aprender a realizar monólogos humorísticos. Es director de la escuela de stand up más grande de la Argentina, que funciona en el Paseo La Plaza y además es guionista y productor de varias obras.",
+        "image": "assets/img/Nicolas Biffi.jpg",
+        "imagecorta": "assets/imgCortadas/Nicolas Biffi.jpg",
+        "id": "M3MjC23hXW4"
+    },
+    {
+        "name": "Pablo Molinari",
+        "country": "Argentina",
+        "description": "Pablo Molinari es uno de los comediantes argentinos de mayor crecimiento en los últimos tiempos. Es además locutor, y nerd de alma. Desde chico siempre fue para el lado del humor, pero durante varios años hizo otras cosas, como ir a las olimpíadas de matemática, o jugar al ajedrez.",
+        "image": "assets/img/Pablo Molinari.jpg",
+        "imagecorta": "assets/imgCortadas/Pablo Molinari.jpg",
+        "id": "WyOIPZ2hLSA"
+    },
+    {
+        "name": "Gonzo Vizan",
+        "country": "Argentina",
+        "description": "Oriundo de Hurlingham, estudió stand up en 2011 con Alejandro Angelini y escritura humorística con Víctor Wolf.",
+        "image": "assets/img/Gonzo Vizan.jpg",
+        "imagecorta": "assets/imgCortadas/Gonzo Vizan.jpg",
+        "id": "EJwmZBylgIo,zrJMnuROZhE"
+    },
+    {
+        "name": "Nico Braun",
+        "country": "Argentina",
+        "description": "Comediante, actor y cantante. Estudió stand up con Emilio Tamer, Diego Wainstein y Alejandro Angelini. También estudió Comedia Musical en el Estudio Julio Bocca & Ricky Pashkus y también con Ruben Celiberti. Como Actor fue la cara de varias marcas reconocidas, y como músico actuó en el Gran Rex y Luna Park siendo parte del grupo Madryn, salido de Escalera a la fama. Como comediante, se presentó en programas como La Cocina del Show, Bendita TV, Hora de Reír y Comedy Central. También fue convocado para participar del Festival Ciudad Emergente 2012 y 2013 en el Centro Cultural Recoleta ante más de 700 personas.",
+        "image": "assets/img/Nico Braun.jpg",
+        "imagecorta": "assets/imgCortadas/Nico Braun.jpg",
+        "id": "9eotvDCIGJQ"
+    },
+    {
+        "name": "Pablo Oyhenart",
+        "country": "Uruguay",
+        "description": "Ha desarrollado una carrera acaparando las redes con sus videos y repartiendo risas por todo el Uruguay. Pablo contagia carcajadas hablando de su madre, los viajes, la comida y mucho más.",
+        "image": "assets/img/Pablo Oyhenart.jpg",
+        "imagecorta": "assets/imgCortadas/Pablo Oyhenart.jpg",
+        "id": "wNZ7FMCEyQw"
+    },
+    {
+        "name": "Seba González",
+        "country": "Uruguay",
+        "description": "Sebastián González es un humorista y guionista uruguayo, quien se caracteriza por ser cómico de monólogos en estilo Stand Up.Con una simpatía que lo caracteriza al abordar cada tema de su monólogo lleva también su humor a la pantalla de Bendita TV  y Yo y 3 más gracias a la realización de sus guiones para dichos programas.",
+        "image": "assets/img/Seba Gonzalez.jpg",
+        "imagecorta": "assets/imgCortadas/Seba Gonzalez.jpg",
+        "id": "C2zo9BrwO3o"
+    },
+    {
+        "name": "Guillermo Selci",
+        "country": "Argentina",
+        "description": "Guillermo Selci es comediante y docente de stand up. Ha actuado en numerosas localidades de Argentina, Uruguay, Chile, Perú, México y España.Es autor del libro “Stand Up”, la guía de comedia que es un éxito editorial. Protagonizó shows con comediantes de la talla de Dalia Gutmann, Luciano Mellera, Sebastián Wainraich y Roberto Moldavsky, entre otros.También ha trabajado en teatros como el Maipo, el Picadilly, el San Martín o el Centro Cultural PUCP (en Lima) y en Ibero Cruceros. Presentó sus rutinas de comedia en distintos programas televisivos y ha tenido participaciones en publicidad, en ciclos de ficción y en Comedy Central.",
+        "image": "assets/img/Guillermo Selci.jpg",
+        "imagecorta": "assets/imgCortadas/Guillermo Selci.jpg",
+        "id": "sCjQ49jalII"
+    },
+    {
+        "name": "Gabriel Murillo",
+        "country": "Colombia",
+        "description": "El comediante Gabriel Murillo, quien dirigie el programa ‘Con Ánimo De Ofender’, se volvió viral en redes sociales después de realizar un polémico cometario sobre Barranquilla y sus habitantes.",
+        "image": "assets/img/Gabriel Murillo.jpg",
+        "imagecorta": "assets/imgCortadas/Gabriel Murillo.jpg",
+        "id": "Jo089bdfjzk"
+    },
+    {
+        "name": "Dalia Gutmann",
+        "country": "Argentina",
+        "description": "Dalia Gutmann, locutora y comediante de stand up, sabe como transformar las inquietudes y problemas de las mujeres en un humor cómplice con su género. Lo cierto es que en Cosa de minas, Dalia expone las cosas que hacen sufrir a toda mujer para convertirlas en un código común.",
+        "image": "assets/img/Dalia Gutmann.jpg",
+        "imagecorta": "assets/imgCortadas/Dalia Gutmann.jpg",
+        "id": "SWGRjci5xe4"
     }
 ]

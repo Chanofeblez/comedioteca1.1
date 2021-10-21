@@ -11,7 +11,7 @@ img {
 
 .caja {
     position: absolute;
-    width: 45%;
+    width: 50%;
     top: 10%;
     left: 20%;
     text-align: left;
@@ -23,7 +23,18 @@ img {
     font-size: 14px;
 }
 
-button {
+.boton {
+    width: 230px;
+    height: 60px;
+    font-family: dosis;
     font-size: 18px;
     font-style: italic;
+    background-color: #fb7712;
+    border-radius: 3%;
+    border: 1px solid white;
+}
+
+h2,
+h4 {
+    font-family: dosis;
 }

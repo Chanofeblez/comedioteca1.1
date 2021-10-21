@@ -1,5 +1,7 @@
-       .titulo {
+       h2 {
            color: #ff7b17;
+           text-transform: uppercase;
+           font-family: dosis;
        }
        
        .cuadro {
@@ -18,6 +20,7 @@
            position: relative;
            background: grey;
            overflow: hidden;
+           border-radius: 2%;
        }
        
        .cuadro .caja img {
@@ -25,10 +28,14 @@
            height: 100%;
        }
        
+       .cuadro .caja img :hover {
+           opacity: 40%;
+       }
+       
        .cuadro .caja .icono {
            position: absolute;
            font-size: 40px;
-           color: #fca461;
+           color: #f7d0b3;
            top: 2%;
            left: 2%;
        }
@@ -44,13 +51,13 @@
        
        .cuadro .cuadro1 {
            grid-column-start: 1;
-           grid-column-end: 7;
+           grid-column-end: 6;
            grid-row-start: 1;
            grid-row-end: 5;
        }
        
        .cuadro .cuadro2 {
-           grid-column-start: 7;
+           grid-column-start: 6;
            grid-column-end: 11;
            grid-row-start: 1;
            grid-row-end: 5;

@@ -1,13 +1,49 @@
-<div id="contenido" class="container mt-5">
-    <div class="tarjetas ">
-        <div class="tarjeta mt-3" *ngFor="let item of comediantes">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class=" mt-5 titulo" (click)="mostrarTodos()">ARTISTAS</h2>
+        </div>
 
-            <div class="image">
-                <img [src]="item.imagecorta" class="img-fluid poster" (click)="onVideoClick( item )">
+        <div class="col-md-12 mt-3">
+            <div class="btn-group btn-group-lg text-center grupo" role="group" aria-label="">
+                <button type="button" class="btn btn-success text-uppercase" *ngFor="let pais of paises" (click)="seleccionarPais(pais)">{{ pais }}</button>
             </div>
+        </div>
 
-            <div class="info">
-                <h4>{{ item.name }}</h4>
+        <div class="row row-cols-1 row-cols-md-3 g-4" *ngIf="!bandera">
+            <div class="col " *ngFor="let comediante of comediantes">
+                <div class="card h-80 targeta " (click)="onVideoClick(comediante)">
+                    <img [src]="comediante.image" alt="" class="">
+                    <div class="row">
+                        <div class="col-md-8 description">
+                            <h5 class="text-start text-uppercase">{{ comediante.name }}</h5>
+                            <p class="text-start text-uppercase">{{ comediante.country }}</p>
+                        </div>
+                        <div class="col-md-4 description1">
+                            <i class="fab fa-facebook-f boton"></i>
+                            <i class="fab fa-youtube boton"></i>
+                            <i class="fab fa-instagram boton"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4" *ngIf="bandera">
+            <div class="col " *ngFor="let comediante of comediantesAux">
+                <div class="card h-80 targeta " (click)="onVideoClick(comediante)">
+                    <img [src]="comediante.image" alt="" class="">
+                    <div class="row">
+                        <div class="col-md-8 description">
+                            <h5 class="text-start text-uppercase">{{ comediante.name }}</h5>
+                            <p class="text-start text-uppercase">{{ comediante.country }}</p>
+                        </div>
+                        <div class="col-md-4 description1">
+                            <i class="fab fa-facebook-f boton"></i>
+                            <i class="fab fa-youtube boton"></i>
+                            <i class="fab fa-instagram boton"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
