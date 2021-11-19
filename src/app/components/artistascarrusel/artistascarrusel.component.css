@@ -33,14 +33,16 @@ h5 {
     font-size: 11px;
     margin-top: 6px;
     margin-bottom: 0%;
+    margin-left: 5px;
 }
 
 p {
     font-family: dosis;
     margin: 0%;
-    color: #fca461;
+    color: #fb7712;
     font-size: 12px;
     font-style: italic;
+    margin-left: 5px;
 }
 
 .boton {
@@ -48,6 +50,6 @@ p {
     font-size: 18px;
     margin-left: 2%;
     margin-top: 10%;
-    color: #fca461;
+    color: #fb7712;
     margin-right: 5%;
 }

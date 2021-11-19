@@ -22,6 +22,7 @@ import { ArtistascarruselComponent } from './components/artistascarrusel/artista
 import { ImagenpublicidadComponent } from './components/imagenpublicidad/imagenpublicidad.component';
 import { ImagencanalesComponent } from './components/imagencanales/imagencanales.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,10 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

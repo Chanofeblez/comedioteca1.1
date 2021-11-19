@@ -75,15 +75,27 @@ textarea {
 }
 
 h2,
-p {
+.medias {
     color: #666666;
     font-family: dosis;
     text-transform: uppercase;
 }
 
-button {
+.error {
+    font-size: 10px;
+}
+
+.boton {
     font-family: dosis;
     text-transform: uppercase;
     color: #fb7712;
     border: 1px solid #fb7712;
+}
+
+.boton :hover {
+    font-family: dosis;
+    text-transform: uppercase;
+    background-color: #fb7712 !important;
+    color: #fb7712;
+    border: 1px solid #ffffff;
 }

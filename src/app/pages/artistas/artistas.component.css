@@ -1,16 +1,3 @@
-.tarjetas {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-}
-
-.tarjeta {
-    height: 240px;
-    flex-basis: 15%;
-    display: flex;
-    align-items: flex-end;
-}
-
 .titulo {
     font-family: dosis;
     color: #ff7b17;
@@ -30,15 +17,6 @@
     cursor: pointer;
 }
 
-.espacio {
-    color: #404040;
-}
-
-.nombre {
-    height: 50px;
-    background-color: #404040;
-}
-
 .description {
     background-color: #404040;
     height: 100%;
@@ -47,15 +25,6 @@
 .description1 {
     background-color: #000000;
     height: 100%;
-}
-
-.texto {
-    height: 100%;
-}
-
-.redes {
-    height: 40px;
-    background-color: black;
 }
 
 h5 {

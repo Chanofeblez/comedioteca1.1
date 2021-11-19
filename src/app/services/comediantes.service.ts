@@ -25,7 +25,7 @@ export class ComediantesService {
   public getComediante( name: string ) {  
 
    for ( let i=0; i< this.comediantesAux.length; i++){
-     if( this.comediantesAux[i].name === name){
+     if( this.comediantesAux[i].name?.toLowerCase() === name.toLowerCase()){
      this.comico = this.comediantesAux[i];
      }
    }   
@@ -39,7 +39,6 @@ export class ComediantesService {
          this.comediantesPaises.push( this.comediantesAux[i] );
       }
     }
-    console.log( this.comediantesPaises );
     return this.comediantesPaises;
   }
 

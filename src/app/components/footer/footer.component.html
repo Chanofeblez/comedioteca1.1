@@ -14,22 +14,28 @@
         </div>
         <div class="centro">
             <div>
-                <h2 class="mt-3">Comentanos</h2>
+                <h2 class="mt-3">Contactanos</h2>
             </div>
-            <div class="row">
+            <form class="form-horizontal form-material" autocomplete="off" [formGroup]="crearMensajeForm" (ngSubmit)="crearMensaje()">
                 <div class="mb-3 nombre">
-                    <input type="text" class="form-control ml-2" placeholder="NOMBRE*" aria-label="First name">
+                    <input type="text" class="form-control ml-2" placeholder="NOMBRE*" formControlName="nombre">
                 </div>
                 <div class="mb-3 email">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="EMAIL*">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="EMAIL" formControlName="email">
                 </div>
                 <div class="mb-3 mensaje">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="MENSAJE"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="MENSAJE" formControlName="mensaje"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col text-danger">
+                        <p *ngIf="campoNoValido('nombre')" class="error">El nombre es obligatorio</p>
+                        <p *ngIf="campoNoValido('email')" class="error">El email es obligatorio y tiene que ser válido</p>
+                    </div>
                 </div>
                 <div class="text-left">
-                    <button type="button" class="btn btn-outline-warning boton">Enviar</button>
+                    <button type="submit" class="btn btn-outline-warning boton">Enviar</button>
                 </div>
-            </div>
+            </form>
         </div>
         <div class="derecha">
             <div>
@@ -38,24 +44,24 @@
             <div>
                 <div class="redes mt-3">
                     <i class="fas fa-envelope mt-1"></i>
-                    <p>latinoscomedy@gmail.com</p>
+                    <p class="medias">latinoscomedy@gmail.com</p>
                 </div>
                 <div class="redes">
                     <i class="fab fa-facebook mt-1"></i>
-                    <p>latinoscomedy</p>
+                    <p class="medias">latinoscomedy</p>
                 </div>
                 <div class="redes">
                     <i class="fab fa-instagram mt-1"></i>
-                    <p>latinos_comedy</p>
+                    <p class="medias">latinos_comedy</p>
                 </div>
                 <div class="redes">
                     <i class="fab fa-youtube mt-1"></i>
-                    <p>latinoscomedy</p>
+                    <p class="medias">latinoscomedy</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="inferior text-center p-3">
-        LATINOSCOMEDY. All rights reserved. 2021
+        LATINOSCOMEDY &copy;. All rights reserved. {{ year }}
     </div>
 </div>

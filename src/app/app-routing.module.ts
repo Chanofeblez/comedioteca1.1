@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'videos', component: VideosComponent },
   { path: 'contactar', component: ContactoComponent },
   { path: 'podcast', component: ContactoComponent },
-  { path: 'pais/:texto', component: PaisComponent },
+  { path: 'buscar', component: PaisComponent },
   { path: 'comediante/:id', component: ComedianteComponent },
   { path: '**', redirectTo: '/home'}
   
