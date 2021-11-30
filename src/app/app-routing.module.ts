@@ -7,6 +7,7 @@ import { AcercaComponent } from './pages/acerca/acerca.component';
 import { ArtistasComponent } from './pages/artistas/artistas.component';
 import { VideosComponent } from './pages/videos/videos.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { CheckoutPageComponent } from './components/checkout-page/checkout-page.component';
 
 const routes: Routes = [
 
@@ -15,9 +16,10 @@ const routes: Routes = [
   { path: 'artistas', component: ArtistasComponent },
   { path: 'videos', component: VideosComponent },
   { path: 'contactar', component: ContactoComponent },
-  { path: 'podcast', component: ContactoComponent },
+  { path: 'podcast/:id', component: ContactoComponent },
   { path: 'buscar', component: PaisComponent },
   { path: 'comediante/:id', component: ComedianteComponent },
+  { path: 'checkout/:id', component: CheckoutPageComponent},
   { path: '**', redirectTo: '/home'}
   
 ];

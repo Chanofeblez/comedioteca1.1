@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 
-
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -21,8 +20,13 @@ import { VideosCarruselComponent } from './components/videos-carrusel/videos-car
 import { ArtistascarruselComponent } from './components/artistascarrusel/artistascarrusel.component';
 import { ImagenpublicidadComponent } from './components/imagenpublicidad/imagenpublicidad.component';
 import { ImagencanalesComponent } from './components/imagencanales/imagencanales.component';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import {  NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ModalDonacionComponent } from './components/modal-donacion/modal-donacion.component';
+import { CheckoutPageComponent } from './components/checkout-page/checkout-page.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -42,7 +46,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     VideosCarruselComponent,
     ArtistascarruselComponent,
     ImagenpublicidadComponent,
-    ImagencanalesComponent
+    ImagencanalesComponent,
+    ModalDonacionComponent,
+    CheckoutPageComponent
   ],
   imports: [
     BrowserModule,
@@ -51,7 +57,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NoopAnimationsModule,
     ReactiveFormsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

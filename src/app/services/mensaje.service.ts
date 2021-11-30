@@ -14,7 +14,7 @@ export class MensajeService {
 
   crearMensaje( formData: Mensaje ){
     
-    return this.http.post(`${ base_url }/mensajes`, formData);
+    return this.http.post(`${ base_url }/api/mensajes`, formData);
 
   }
 }

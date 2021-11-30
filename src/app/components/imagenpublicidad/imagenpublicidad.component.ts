@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalDonacionesService } from '../../services/modal-donaciones.service';
 
 @Component({
   selector: 'app-imagenpublicidad',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImagenpublicidadComponent implements OnInit {
 
-  constructor() { }
+  constructor( public modalService: ModalDonacionesService) { }
 
   ngOnInit(): void {
+  }
+
+  abrirModal(){
+    this.modalService.abrirModal();
   }
 
 }
